@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: cart
-          image: rkalluru/d53-rs-cart:IMAGETAG
+          image: jithendar/cart:IMAGETAG
           ports:
             - containerPort: 8080
           env:
