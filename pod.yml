@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: cart
-          image: jithendar/cart:10.5
+          image: jithendar/cart:image_tag
           ports:
             - containerPort: 8080
           env:
