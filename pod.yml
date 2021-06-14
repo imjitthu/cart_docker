@@ -31,8 +31,10 @@ spec:
           resources:
           requests:
             cpu: 50m
+            memory: 200mb
           limits:
             cpu: 100m
+            memory: 200mb
           env:
             - name: REDIS_HOST
               value: "redis-master"
